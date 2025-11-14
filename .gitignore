@@ -1,0 +1,41 @@
+# ==================================
+# Tệp hệ thống và IDE
+# ==================================
+
+# Bỏ qua cấu hình Eclipse (Rất quan trọng)
+.metadata/
+.settings/
+.classpath
+.project
+
+# Bỏ qua cấu hình IntelliJ & VSCode (phòng hờ)
+.idea/
+*.iml
+.vscode/
+
+# Bỏ qua file hệ điều hành
+.DS_Store
+Thumbs.db
+
+# ==================================
+# Java & Spring Boot (Maven/Gradle)
+# ==================================
+
+# Bỏ qua thư mục build của Maven
+target/
+
+# Bỏ qua thư mục build của Gradle
+build/
+.gradle/
+
+# Bỏ qua các file log
+*.log
+logs/
+
+# Bỏ qua file biên dịch
+*.class
+
+# Bỏ qua các file đóng gói
+*.jar
+*.war
+*.ear
