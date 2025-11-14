@@ -39,3 +39,9 @@ logs/
 *.jar
 *.war
 *.ear
+# Bỏ qua thư mục upload của người dùng
+uploads/
+
+# Bỏ qua file rác của Node.js
+package.json
+package-lock.json
